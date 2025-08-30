@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+/* updating the header */
+header h1{
+  text-align: center;
+}
+/* Center our image */
+#featured-property img{
+  display: block;
+  margin: 0 auto;
+}
+/* Jazz up our navigation links */
+nav {
+  text-align: center;
+}
+nav a {
+  padding: 0 10px;
+  background-color: grey;
+  color: white;
+  text-decoration: none;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+/* Our image caption needs work */
+#featured-property figcaption {
+  font-size: 12px; 
+  text-align: center; 
+  margin-top: 5px;
+}
+/*Update the text block*/
+#featured-property p {
+  width: 800px; 
+  margin: 10px auto; 
+  text-align: center; 
+  line-height: 1.5;
+}
+/* Make our #details section horizontal */
+#details div{
+  float: left; 
+  width: 25%; 
+  text-align: center; 
+  background-color: lightgrey; 
+  padding: 10px;
+  box-sizing: border-box;
+}
